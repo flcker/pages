@@ -1,0 +1,136 @@
+# Base Config
+
+# site
+# default "AcyOrt", "A Node.js blog tool powered by GitHub."
+title: 拿枪的剑客
+description: Software, Amateur Photographer
+
+# rss
+# set false if not need rss output
+# default "rss.xml"
+rss:
+
+# site url. you can set as 'http://yoursite.com/child' if necessary
+# please add 'http://' or 'https://'
+# default "https://acyortjs.github.io"
+# url: https://flcker.github.io/pages
+url: http://127.0.0.1:2222
+
+# theme
+# default "ccc45"
+theme: #donob
+
+# pagination
+# set 0 if not need
+# default 10
+per_page: 10
+
+# menu
+menu:
+  archives: /archives/
+  # categories: /category/
+  # tags: /tag/
+
+# default category
+# default "uncategorized"
+default_category: default
+
+# site content source
+# the repository issues
+# your github user/repository
+# default "acyortjs", "acyortjs.github.io"
+user: flcker
+repository: blog
+
+
+# Advance Config
+
+# scripts
+# script file name
+# the directory is "scripts"
+scripts:
+  # - hexo.js
+
+# html output directory or child directory e.g. "child"
+# default "/"
+public_dir: public/
+
+# authors
+# GitHub username
+authors:
+  - flcker
+#  - author0
+#  - author1
+
+# timezone
+# the timezone of your website
+# example: America/New_York, Japan, or UTC
+# default is local system timezone
+timezone:
+
+# language
+# requires theme support
+# default is "default"
+language: zh-CN
+
+# code line numbers
+# whether to dispaly code line numbers
+# default true
+line_numbers: true
+
+# archives pagination
+# set 0 if not need
+# default 30
+archives_per_page: 10
+
+# post order
+# order by create time" or "update time"
+# created: use "create time"
+# updated: use "update time"
+# default "created"
+order: "create time"
+
+# thumbnail mode
+# 1: use the first image as thumbnail and remove the image
+# 2: use the first image as thumbnail but not remove the image
+# default 2
+thumbnail_mode: 2
+
+# category directory
+# default "category"
+category_dir:
+
+# tag directory
+# default "tag"
+tag_dir:
+
+# post directory
+# default "posts"
+post_dir:
+
+# archives directory
+# default "archives"
+archives_dir:
+
+# GitHub access token(optional)
+# token should be separated by '#' if you push this file to GitHub
+# example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
+token: 5#bf32aa6471b71c448a90893245f312e7dd34471
+
+# json output
+# boolean or string
+# you can set json output path
+# default false
+json:
+
+# dev mode
+# default false
+dev: true
+
+
+# Other Config
+# customize some settings if necessary
+
+# disqus:
+# keywords:
+favicon: "./avatar.ico"
