@@ -19,11 +19,17 @@ jobs:
       - run: ls -a
       - run: cp config.bak.yml config.yml 
       # - run: git clone https://github.com/acyortjs/theme-donob.git themes/donob # 这个是博客主题，如果使用默认主题是不需要这段的
+      - run: ls -a
       - run: acyort build  
+      - run: ls -a
       - run: git checkout .  
+      - run: ls -a
       - run: git checkout gh-pages # 这个分支是存放博客静态文件分支，不要写错
+      - run: ls -a
       - run: git reset --hard origin/gh-pages # 同上
+      - run: ls -a
       - run: cp -R public/* . # 不明白就不要修改
+      - run: ls -a
       - run: rm config.bak.yml 
       - run: ls -a
       - run: rm -R scripts themes public # 不明白就不要修改
