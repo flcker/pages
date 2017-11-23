@@ -24,6 +24,7 @@ jobs:
       - run: git reset --hard origin/gh-pages # 同上
       - run: cp -R public/* . # 不明白就不要修改
       - run: rm config.bak.yml 
+      - run: ls -a
       - run: rm -R scripts themes public # 不明白就不要修改
       - run: git add .
       - run: git config user.name "flcker" # 你的 GitHub 用户名，一定要改，不要填我的

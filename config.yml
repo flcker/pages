@@ -13,8 +13,8 @@ rss:
 # site url. you can set as 'http://yoursite.com/child' if necessary
 # please add 'http://' or 'https://'
 # default "https://acyortjs.github.io"
-# url: https://flcker.github.io/pages
-url: http://127.0.0.1:2222
+url: https://flcker.github.io/pages
+# url: http://127.0.0.1:2222
 
 # theme
 # default "ccc45"
@@ -125,7 +125,7 @@ json:
 
 # dev mode
 # default false
-dev: true
+dev:
 
 
 # Other Config
@@ -133,4 +133,4 @@ dev: true
 
 # disqus:
 # keywords:
-favicon: "./avatar.ico"
+# favicon: "./avatar.ico"
