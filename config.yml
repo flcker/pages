@@ -49,7 +49,7 @@ repository: blog
 # script file name
 # the directory is "scripts"
 scripts:
-  - hexo.js
+  # - hexo.js
 
 # html output directory or child directory e.g. "child"
 # default "/"
